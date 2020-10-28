@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link  rel="icon"   href="./images/Favicon.png" type="image/png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Numans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/header-style.css">
     <link rel="stylesheet" href="./css/about-style.css">
     <link rel="stylesheet" href="./css/knowledge-style.css">
@@ -40,7 +42,7 @@
                         <a href="#projects" class="link-nav">PROYECTOS</a>
                     </li>
                     <li>
-                        <button type="button" class="button-nav"><a href="#contact" class="link-nav">CONTACTO</a></button>
+                        <button type="button" class="button-nav"><a href="#contact">CONTACTO</a></button>
                     </li>
                 </ul>
             </nav>
@@ -50,51 +52,57 @@
     <!--Termina Header-->
     <!--Comienza sección sobre mí-->
     <section class="about-section" id="about">
-         <!--<div class="main-content">-->
              <article class="about-info">
                  <p class=" about-greeting">¡Hola! Soy</p>
+
                  <h1 class="about-name">Edimar Morles</h1>
+
                  <p class="about-description">Desarrolladora, músico, profesional de la hotelería y el turismo, amante de la naturaleza y el arte.</p>
-                 <button><a href="#projects" class="to-projects-button">LO QUE HAGO</a></button>
+
+                 <button class="to-projects-button"><a class="to-projects-button-texto" href="#projects">LO QUE HAGO</a></button>
              </article>
-             <figure class="about">
-             <img src="./images/undraw_web_development_w2vv.svg" alt="about-me-img">
+             
+             <figure class="about-image">
+             <img src="./images/undraw_dev_focus_b9xo.svg" alt="about-me-img" width="90%">
+
             </figure>
-         <!--</div>-->
     </section>
      <!--Termina sección sobre mí-->
 
      <!--Comienza sección conocimientos-->
     <section class="knowledge-section" id="knowledge">
         <!--<div class="column-content">-->
-            <h2   class="section-title">"Mis conocimientos" </h2>
+            <h2   class="section-title">Mis conocimientos </h2>
+
             <p class="knowledge-description">
-               " Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, consectetur repellendus molestias debitis rem omnis!"
+                
+                Recientemente surgió en mí la inquietud de desarrollarme en el mundo de la programación, donde deseo profesionalizarme y hacer carrera.
+
+                Desde entonces he desarrollado las siguientes habilidades en Frontend
             </p>        
             <div class="grid-knowledge">
-                <figure class="grid-item knowledge">
-                    <i class="devicon-html5-plain colored"></i>
-                    <p class="knowledge-title"> HTML 5</p>
+
+                <figure class="item-knowledge">
+                    <i id="knowledge-image"
+                     class="devicon-html5-plain colored"><figcaption class="grid-knowledge-text"> HTML 5</figcaption></i>
                 </figure>
                 <figure class="item-knowledge">
-                    <i class="devicon-css3-plain colored"></i>">
-                    <p class="knowledge-title"> CSS 3</p>
+                    <i id="knowledge-image" class="devicon-css3-plain colored"><figcaption class="grid-knowledge-text"> CSS 3</figcaption></i>
                 </figure>
                 <figure class="item-knowledge">
-                    <i class="devicon-sass-original colored"></i>
-                    <p class="knowledge-title"> Sass</p>
+                    <i id="knowledge-image" class="devicon-sass-original colored"><figcaption class="grid-knowledge-text"> Sass</figcaption></i>
                 </figure>
                 <figure class="item-knowledge">
-                    <i class="devicon-javascript-plain colored"></i>
-                    <p class="knowledge-title"> JavaScript</p>
+                    <i id="knowledge-image"
+                    class="devicon-javascript-plain colored"><figcaption class="grid-knowledge-text"> JavaScript</figcaption></i>
                 </figure>
                 <figure class="item-knowledge">
-                    <i class="devicon-react-original colored"></i>
-                    <p class="knowledge-title"> React</p>
+                    <i id="knowledge-image"
+                    class="devicon-react-original colored"><figcaption class="grid-knowledge-text"> React</figcaption></i>
                 </figure>
                 <figure class="item-knowledge">
-                    <i class="devicon-git-plain colored"></i>
-                    <p class="knowledge-title"> GIT</p>
+                    <i id="knowledge-image"
+                    class="devicon-git-plain colored"><figcaption class="grid-knowledge-text"> GIT</figcaption></i>
                 </figure>
             </div>
        <!--</div>--> 
@@ -103,58 +111,55 @@
 
     <!--Comienza sección proyectos-->
     <section class="quote-section">
-        <!--<div class="column-content">-->
             <i class="fa fa-quote-right"></i>
             <blockquote class="quote">
-                <p class="quote">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente, eos!"
+                <p class="quote">"El éxito de cualquier producto depende de visiones muy sutiles. Necesitas un gran producto y una visión más grande todavía para llevarlo a cabo, pero serán las cosas pequeñas las que marquen la gran diferencia."
                 </p>
             </blockquote>
-            <h2 class="quote-author">Autor Cita</h2>
-        <!--</div>-->
+            <h2 class="quote-author">Chad Hurley <br> Cofundador de Youtube</h2>
     </section>
     <section class="project-section" id="projects">
-        <!--<div class="column content">-->
+        <article class="project-info">
             <h2 class="section-title">Mis proyectos</h2>
             <p class="section-description">"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, molestiae."</p>
+        </article>
     <!--Comienza grilla proyectos-->
-           <div>   
-              <a href="#">
-                  <img src="./images/undraw_dev_focus_b9xo.svg" alt="Portfolio">
-                  <p>Portfolio</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_mobile_development_8gyo (1).svg" alt="Mobile-Dev">
-                  <p>Generador de memes</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_game_world_0o6q.svg" alt="Game-Dev">
-                  <p>Match 3 Game </p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_wallet_aym5 (1).svg" alt="Walet">
-                  <p>Controlador de gastos</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_home_cinema_l7yl.svg" alt="Cinema">
-                  <p>Buscador de películas</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_checking_boxes_2ibd.svg" alt="Administrador Tareas">
-                  <p>Todo app</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_schedule_pnbk.svg" alt="Calendario">
-                  <p>Administrador de calendario</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_picture_k52w.svg" alt="Pics">
-                  <p>Editor de fotos</p>
-              </a>
-              <a href="#">
-                  <img src="./images/undraw_mindfulness_scgo.svg" alt="Mindfullness">
-                  <p>Mindfullness app</p>
-              </a>
-           </div>
+           <article class="grid-projects">   
+              <div class="project-img">
+                 <a href="#"><img src="./images/undraw_web_development_w2vv.svg" alt="Portfolio" width="90%">
+                 <p>Portfolio</p></a>
+              </div>
+              <div class="project-img">
+                  <a href="#">
+                  <img src="./images/undraw_mobile_development_8gyo (1).svg" alt="Mobile-Dev" width="90%">
+                  <p>Generador de memes</p></a>
+              </div>
+              <div class="project-img">
+                  <a href="#">
+                  <img src="./images/undraw_game_world_0o6q.svg" alt="Game-Dev" width="90%">
+                  <p>Match 3 Game </p></a>
+               </div>
+               <div class="project-img">
+                  <a href="#">
+                  <img src="./images/undraw_wallet_aym5 (1).svg" alt="Walet" width="90%">
+                  <p>Controlador de gastos</p></a>
+              </div>
+              <div class="project-img">
+                  <a href="#">
+                  <img src="./images/undraw_home_cinema_l7yl.svg" alt="Cinema" width="90%">
+                  <p>Buscador de películas</p></a>
+              </div>
+              <div class="project-img">
+                  <a href="#">
+                  <img src="./images/undraw_checking_boxes_2ibd.svg" alt="Administrador Tareas" width="90%">
+                  <p>Todo app</p></a>
+              </div>
+              <div class="project-img">
+                   <a href="#">
+                  <img src="./images/undraw_schedule_pnbk.svg" alt="Calendario"width="90%">
+                  <p>Administrador de calendario</p></a>
+              </div>
+           </article>
     <!--Fin grilla proyectos-->
        </div>
     </section>
@@ -162,37 +167,65 @@
 
     <!--Comienza sección contacto-->
     <section class="contact-section" id="contact">
-        <!--<div class="column">-->
-            <!--<div class="contact">-->
-                <section class="contact-column">
+            <article class="contact-container">
+                <div class="contact-me-container"></div>
                     <h2 class="section-title">Contactame</h2>
-                    <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, magni.</p>
+                    <p class="section-description">Si quieres ponerte en contacto conmigo y ayudarme en este proceso de crecimiento profesional, puedes contactarme a través de los siguientes canales:
+
+                    </p>
                 <!--Links de contacto -->
-                    <section class="Links-social- contacts">
-                        <ul class="contacts-links">
+                    <div class="Links-social-contacts">
+                        <ul class="contact-social-links">
                               <li class="contact-item">
-                              <a href="#">Twitter</a>
+                                  <a class="contact-social-link" href="https://twitter.com/MorlesEdimar" target="_blanc">
+                                     <i class="fab fa-twitter contact-icon"></i>@MorlesEdimar</a>
                               </li>
+
                               <li class="contact-item">
-                              <a href="#">Github</a>
+                                <a class="contact-social-link" href="https://github.com/edimar-m" target="_blanc">
+                                   <i class="fab fa-github contact-icon"></i>edimar-m</a>
                               </li>
+
                               <li class="contact-item">
-                              <a href="#">Linkedin</a>
+                                <a class="contact-social-link" href="www.linkedin.com/in/edimar-andreína-morles-gonzález-613712109" target="_blanc">
+                                    <i class="fab fa-linkedin-in contact-icon"></i>
+                                   Edimar Andreína Morles González</a>
                               </li>
+                              
                               <li class="contact-item">
-                              <a href="#">Email</a>
+                                <a class="contact-social-link" href="https://mail.google.com/" target="_blanc">
+                                  <i class="fas fa-envelope contact-icon"></i>
+                                   edimar.morles@gmail.com</a>
                               </li>
                         </ul>
-                   </section>
-                </section>
-             <section class="contact-form">
-                 <h2 class="section-title">Escribeme</h2>
-                 <form action="#">
-                    
-                     <button type="submit" class="contact-send"> Enviar </button>
+                    </div>
+                </div>
+             
+             <article class="contact-form">
+                 <h2 class="section-title">Escríbeme</h2>
+                   <div class="write-form">
+                        <div class="name-form">
+                            <label class="form-label" for="userName">Nombre*</label> 
+                            <input type="text" name="userName" id="user-name" placeholder="p.ej: Ada" required>
+                        </div>
+
+                        <div class="name-form">
+                            <label class="form-label" for="userLastname">Apellido*</label> 
+                            <input type="text" name="userLastname" id="user-last-name" placeholder="p.ej: Lovelace" required>
+                     </div>
+                     <div class="name-form">
+                            <label class="form-label" for="UserEmail">Email*</label> 
+                            <input type="email" name="userEmail" id="user-email" placeholder="p.ej.:edi.morles@gmail.com" required>
+                     </div>
+                     <div class="name-form>
+                           <label class="form-label" for="UserMessage">Mensaje*</label>
+                           <textarea name="userMessage" id="user-message" cols="45" rows="10" placeholder="Escriba un mensaje aquí " required></textarea>
+                     </div>
+                     <button class="form-button" type="submit"><a href="#">Enviar</a></button>
                  </form>
-             </section>
-           <!--</div>-->
+                </div>
+             </article>
+            </article> 
         <!--</div>-->
     </section>
     <!--Termina sección contacto-->
@@ -219,19 +252,29 @@
         <!--Cierro navegación footer-->
        <nav class="footer-contact">
            <ul class="social-links-footer">
-                <li class="contact-footer">
-                 <a href="#">Twitter</a>
+               <li class="footer-item">
+                    <a class="footer-social-link" href="https://twitter.com/MorlesEdimar" target="_blanc">
+                         <i class="fab fa-twitter footer-icon"></i>
+                    </a>
                 </li>
-                <li class="contact-footer">
-                 <a href="#">Github</a>
+
+                <li class="footer-item">
+                   <a class="footer-social-link" href="https://github.com/edimar-m" target="_blanc">
+                         <i class="fab fa-github footer-icon"></i>
+                    </a>
                 </li>
-                <li class="contact-footer">
-                 <a href="#">Linkedin</a>
-                </li>
-                <li class="contact-footer">
-                  <a href="#">Email</a>
-                </li>
-           </ul>
+
+               <li class="footer-item">
+                   <a class="footer-social-link" href="www.linkedin.com/in/edimar-andreína-morles-gonzález-613712109" target="_blanc">
+                         <i class="fab fa-linkedin-in footer-icon"></i>
+                  </a>
+            </li>
+            
+              <li class="footer-item">
+                 <a class="footer-social-link" href="https://mail.google.com/" target="_blanc">
+                         <i class="fas fa-envelope footer-icon"></i>
+                  </a>
+            </li>
        </nav>
        <p>Hecho con ❤ por Edimar Morles</p>
     </footer>

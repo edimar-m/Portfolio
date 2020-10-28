@@ -1,0 +1,36 @@
+.quote-section {
+    background-color: #13A0A7;
+    font-family:  'Numans', sans-serif;
+    color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+.quote {
+    font-size: 1.2rem;
+    max-width: 600px;
+}
+  
+.quote-author {
+   font-family:  'Numans', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+  /*Responsive*/
+  @media (max-width: 500px) {
+    blockquote {
+      margin: 0;
+    }
+  
+    .quote {
+      font-size: 1em;
+    }
+}
+  
+
+ 

@@ -1,0 +1,95 @@
+/*comienza sección de contacto*/
+.contact-section {
+    background-color: rgb(236, 235, 235);
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    justify-content: center;
+}
+
+/*contenedor central para los dos contenedores pequeños*/
+.contact-container{
+    width: 70%;
+    height: 80vh;
+    padding: 100px;
+    background-color:white;
+    border: 1px solid #dddfe5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
+/*contenedor contactame*/
+.contact-me-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*H2, Contáctame*/
+.section-title
+
+.section-description{
+    text-align: left;
+}
+
+/*Links de contacto contenedor*/
+.Links-social-contacts
+
+/*UL*/
+.contact-social-links
+
+/*Li*/
+
+.contact-item{
+    font-size: 1.3rem;
+    color: red;
+    margin-right: 5px;
+    border-radius: 100px;
+    padding-left: 10px 10px;
+}
+
+.contact-social-link
+
+.contact-icon:hover{
+    background-color: salmon;
+    color: slateblue;
+}
+
+.contact-form{
+    margin-left: 30px;
+}
+
+.form-label{
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+#user-name, #user-last-name, #user-email{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: violet;
+    border: none;
+    color: grey;
+    border-radius: 20px;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+}
+input:hover, textarea:hover{
+    box-shadow: 0 0 5px 0 rgb(128, 25, 128);
+}
+input:valid, textarea:valid{
+    box-shadow: 0 0 5px 0 green;
+} 
+
+.form-button{
+    width: 30%;
+    font-size: 1.1rem;
+    background-color: indigo;
+    border: none;
+    padding: 15px;
+    color: lavenderblush;
+    border-radius: 25px;
+}
