@@ -1,17 +1,16 @@
 .menu-container{
     display: flex;
     flex-direction:  row;
-    background-color: #0cbaba;
-    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-    padding: 25px;
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    padding: 20px;
     width: 100%;
     border: none;
     box-sizing: border-box; 
     box-shadow: 0 0 30px 0; 
     justify-content: flex-end;
     align-content: space-between; 
-    position: fixed;
-    
+    position: fixed;  
 }
 .menu-nav{
     list-style: none;
@@ -19,15 +18,18 @@
     flex-direction: row;
     align-items: center;
 }
+.header-nav{
+    padding-right: 150px;
+}
 
 .link-nav{
     font-weight: bold;
     width: 100%;
-    margin: 10px;
+    margin: 15px;
     text-align: center;
     text-decoration: none;
     font-size: 1rem;
-    color: #2F2E41;
+    color: #1e1d2c;
     border:none;
     text-align: center;
     list-style: none; 
@@ -35,26 +37,41 @@
 }
 .button-nav{
     border:0;
-    background-color: rgb(171, 86, 250);
-    font-size: 1rem;
-    font-family:  'Numans', sans-serif;
+    background-color:#8338EC;
+    width: 130%;
+    height: 2.3rem;
     font-weight: bold;
     cursor: pointer;
     transition: 0.2s;
-    padding: 10px;
+    padding: 5px;
     border-radius: 100px;
+}
+.to-contact-button{
+    color:white
 }
 
 .button-nav:hover {
     background-color: #F9A826;
+    font-size: 1.3rem;
 }
 .link-nav:hover {
     color:#F9A826;
+    font-size: 1.3rem;
 }
+
+/*Media queries*/
 
 @media (max-width:650px){
     header-nav{
         display: none;
 }
 }
+@media (max-width: 1100px) {
+    header {
+      /* padding: 25px 20px; */
+      display: none;
+    }
+  }
+  
+  
 

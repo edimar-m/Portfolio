@@ -1,7 +1,7 @@
 .quote-section {
-    background-color: #13A0A7;
+    background-color: #62daf8;
     font-family:  'Numans', sans-serif;
-    color: white;
+    color:#242331;
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -10,27 +10,60 @@
     text-align: center;
 }
 
-
+#quote-section-image{
+  font-size: 5rem;
+}
 .quote {
     font-size: 1.2rem;
     max-width: 600px;
 }
-  
 .quote-author {
-   font-family:  'Numans', sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: #242331;
 }
-  /*Responsive*/
-  @media (max-width: 500px) {
-    blockquote {
-      margin: 0;
-    }
-  
-    .quote {
-      font-size: 1em;
-    }
+  /*Media queries*/
+
+@media (max-width: 700px) {
+  .quote-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .quote, .quote-author{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    
+  }
 }
-  
+@media (max-width: 800px) {
+  .quote-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .quote, .quote-author{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row;
+    
+  }
+}
+@media (max-width: 500px) {
+  blockquote {
+    margin: 0;
+  }
+
+  .quote {
+    font-size: 1em;
+  }
+}
+
+
+
 
  

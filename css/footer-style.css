@@ -1,15 +1,95 @@
+/*Contenedor general*/
+
 footer{
-    background-color: rgb(2, 43, 56);
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    color: white;
+    font-weight: bold;
     width: 100%;
-    height: 50vh;
-    margin-bottom: 0;
-    font-size: 2rem;
+    height: 45vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.footer-item{
+
+/*Links de navegación*/
+
+.footer-nav-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+.footer-nav-list{
+    margin: 0 10px;
+} 
+.footer-about-link{
+    font-size: 1rem;
+    color:white;
+    font-weight: bold;
+}
+.footer-about-link:hover{
+    font-size: 1.3rem;
+    color: #F9A826;
+}
+/*Links de cntacto*/
+
+.social-links-footer {
+    display: flex;
+    margin: 30px 0px;
+    
+}
+  
+.footer-social-link {
+    border-radius: 50%;
+    width: 2rem;
+    margin: 10px 10px;
+}
+
+.footer-item{
+    margin: 0px 15px;
+}
+  
+.footer-about-link:focus,
+.footer-social-link:focus {
+    box-shadow: 0px 0px 8px #fff;
+}
+
+/*Iconos-links de contacto*/
+
+#footer-icon {
+    background-color: rgb(209, 208, 208);
+    color: #8338ec;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.7rem;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+}
+  .footer-social-link:focus #footer-icon,
+  .footer-social-link:hover #footer-icon {
+    color: #fff;
+    background-color: #8338ec;
+    border: 1px solid #fff;
+}
+
+p{
+    font-size: 1rem;
+}
+
+/*Responsive*/
+
+@media (max-width: 600px) {
+
+  .footer-nav-menu {
+      display: none;
+    }
+  .footer-social-links {
+      margin-top: 0;
+    }
 }
