@@ -1,7 +1,7 @@
 # Portafolio de Ada
   ### Este proyecto está realizado para mostrar un ejemplo de como sería un portafolio para la entrega final del módulo-01 de Ada.
 
-  ### Si quieres ver como me quedó puedes dar click en el siguiente [enlace](https://edimar-m.github.io/Portfolio-modulo-1/) o puedes hacerlo desde [acá]()
+  ### Si quieres ver como me quedó puedes dar click en el siguiente [enlace](https://edimar-m.github.io/Portfolio-modulo-1/) o puedes hacerlo desde [acá](https://adoring-jang-f31dba.netlify.app)
 
   <br>
 
@@ -29,10 +29,12 @@
 
 ***
 
-### Este portafolio fue desarrollado para las chicas de la cursada 6 online de ADA, Agradezco a [Leidy] (https://github.com/leydyk93/
+### Este portafolio fue desarrollado para las chicas de la cursada 6 online de ADA, Agradezco a [Leidy](https://github.com/leydyk93/
 ) por toda su ayuda!
 
 <br>
+
+
 
 ***
 ### De Edimar Con 🧡 para ustedes!
