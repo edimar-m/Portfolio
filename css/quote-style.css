@@ -1,5 +1,5 @@
 .quote-section {
-    background-color: lightblue;
+    background: linear-gradient(to top right, #c477f8 0%, #85e7ff 100%);
     font-family:  'Numans', sans-serif;
     color:#242331;
     height: 90vh;
@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-#quote-section-image{
+#quote-image{
   font-size: 5rem;
 }
 .quote {
@@ -21,43 +21,53 @@
     font-size: 1.5rem;
     color: #242331;
 }
+
   /*Media queries*/
 
+@media (max-width: 800px) {
+  .quote-section{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    padding-top: 2rem;
+ }
+  .quote, .quote-author{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row; 
+    margin: 2rem;
+    font-size: 1rem;
+    }
+    .project-img{
+      font-size: 2rem;
+    }
+  }
 @media (max-width: 700px) {
   .quote-section{
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    height: auto;
+    width: auto;
   }
   .quote, .quote-author{
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: row;
-    
-  }
-}
-@media (max-width: 800px) {
-  .quote-section{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-  }
-  .quote, .quote-author{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;
-    
   }
 }
 @media (max-width: 500px) {
   blockquote {
     margin: 0;
+    height: auto;
+    width: auto;
   }
-
   .quote {
     font-size: 1em;
   }

@@ -86,39 +86,43 @@
   border: #8338ec;
   color: #8338ec;
 }
-  /*Responsive*/
+  /*Media queries*/
 
-@media (max-width: 580px) {
-    .section-title {
-      font-size: 1em;
-    }
-    .grid-knowledge {
-      width: calc(50% - 20px);
-      padding: 20px 10px;
-      margin: 0.5em;
-    }
-    .item-knowledge {
-      font-size: 3.71em;
-    }
+  @media  (min-width: 320px) and (max-width: 900px) {
+    .knowledge-section {
+    display: flex;
+    flex-flow: column wrap;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+  }
+  #knowledge-image {
+    font-size: 2rem;
+  }
 }
-  
-@media (max-width: 450px) {
-    .grid-knowledge {
-      padding: 10px;
-      margin: 5px;
-    }
-    .item-knowledge {
-      font-size: 2.71em;
-    }
+@media (min-width: 900px) and (max-width: 1024px) {
+  .knowledge-section {
+    width: auto;
+    height: auto;
+    padding: 20px 10px;
+    margin: 0.5em;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+  .knowledge-description .section-title{
+    text-align: center;
+  }
+  .grid-knowledge{
+    display: flex;
+    flex-flow: column wrap;
+  }
+  #knowledge-image {
+    font-size: 3.71em;
+  }
 }
-  
-@media (max-width: 350px) {
-    .grid-knowledge {
-      width: 100%;
-      max-width: 190px;
-    }
-    .item-knowledge {
-      font-size: 2.71em;
-    }
-}
+
+
+
 
