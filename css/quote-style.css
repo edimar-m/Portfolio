@@ -14,17 +14,17 @@
   font-size: 5rem;
 }
 .quote {
-    font-size: 1.2rem;
+    font-size: 2rem;
     max-width: 600px;
 }
 .quote-author {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     color: #242331;
 }
 
   /*Media queries*/
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .quote-section{
     display: flex;
     justify-content: space-evenly;
@@ -32,7 +32,8 @@
     flex-direction: column;
     height: auto;
     width: auto;
-    padding-top: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
  }
   .quote, .quote-author{
     display: flex;
@@ -46,32 +47,7 @@
       font-size: 2rem;
     }
   }
-@media (max-width: 700px) {
-  .quote-section{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-  }
-  .quote, .quote-author{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: row;
-  }
-}
-@media (max-width: 500px) {
-  blockquote {
-    margin: 0;
-    height: auto;
-    width: auto;
-  }
-  .quote {
-    font-size: 1em;
-  }
-}
+  
 
 
 

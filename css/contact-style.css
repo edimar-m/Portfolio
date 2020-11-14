@@ -43,7 +43,7 @@
     justify-content: left;
     font-size: 1rem;
 }
-.contact-title, .contact-title-form{
+.contact-title{
     font-family: 'Lilita One', cursive;
     color: #3d3d3d;
     font-size: 3rem;
@@ -61,18 +61,17 @@
 
 /*Links de contacto-contenedor*/
 
-.Links-social-contacts{
+.Links-container{
     font-family:  'Numans', sans-serif;
     font-size: 1rem;
     width: 100%;
-    height: 1.5rem;
     display: flex;
     flex-direction: column;
 }
 
 /*UL*/
 
-.contact-social-links{
+.social-links{
     font-size: 1.5rem;
     margin-top: 0;
     padding: 5px 10px;
@@ -93,7 +92,7 @@
     text-align: left;
 }
 
-.contact-social-link{
+.contact-link{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -117,10 +116,10 @@
     transition: 0.2s;
 }
 
-.contact-social-link:hover {
+.contact-link:hover {
     color: #F9A826;
 }
-.contact-social-link:hover #icon-contact {
+.contact-link:hover #icon-contact {
     background-color: #F9A826;
     color: #fff;
 }
@@ -262,41 +261,55 @@ textarea:not(:placeholder-shown):invalid  .icon-invalid {
     height: auto;
     display: flex;
     flex-flow: column wrap;
-    background-color: turquoise;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
   }
   .contact-container {
     padding:0;
     margin: 0;
-    width:auto;
+    width:100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background-color: tomato;
+    margin-bottom: 1rem;
+    border: none;
   }
   .contact-me{
     width:100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: violet;
+  }
+  .contact-description{
+    word-wrap: break-word;
+    width: 88%;
+    text-align: start;
   }
   .contact-item {
     width: 100%;
+    font-size: 1rem;
     margin: 0;
     margin-bottom: 10px;
   }
-
+  .contact-form{
+    width: 80%;
+  }
   .name-lastname {
     flex-direction: column;
     margin-left: 0;
   }
-
+  .form{
+    width: 100%;
+  }
+  .form-button{
+    width: 50%;
+  }
   .name-lastname .form:nth-of-type(1) {
     margin-right: 0;
   }
-
   .name-lastname .form:nth-of-type(2) {
     margin-left: 0;
   }
