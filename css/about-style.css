@@ -85,8 +85,8 @@
     .about-section {
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
       align-content: center;
+      text-align: center;
       width: 100%;
       height: auto;
       background-color: whitesmoke;
