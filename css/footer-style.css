@@ -20,15 +20,14 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 0;
+    
 }
-.footer-nav-list{
-    margin: 0 10px;
-} 
+
 .footer-about-link{
     font-size: 1rem;
     color:white;
     font-weight: bold;
+    margin: 1rem;
 }
 .footer-about-link:hover{
     font-size: 1.3rem;

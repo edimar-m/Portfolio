@@ -43,7 +43,7 @@
     justify-content: left;
     font-size: 1rem;
 }
-.contact-title{
+.contact-title, .form-title{
     font-family: 'Lilita One', cursive;
     color: #3d3d3d;
     font-size: 3rem;
@@ -131,7 +131,7 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    margin-left: 1.8rem;
+    
     margin-right: 3rem;
     padding: 50px 70px;
     background-color:whitesmoke;
@@ -273,7 +273,6 @@ textarea:not(:placeholder-shown):invalid  .icon-invalid {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    margin-bottom: 1rem;
     border: none;
   }
   .contact-me{
@@ -283,10 +282,17 @@ textarea:not(:placeholder-shown):invalid  .icon-invalid {
     flex-direction: column;
     justify-content: space-evenly;
   }
+  .form-title{
+    padding-left: 1rem;
+  }
   .contact-description{
     word-wrap: break-word;
     width: 88%;
     text-align: start;
+  }
+  .social-links{
+    padding-left: 0;
+    margin-left: 0;
   }
   .contact-item {
     width: 100%;
@@ -296,6 +302,12 @@ textarea:not(:placeholder-shown):invalid  .icon-invalid {
   }
   .contact-form{
     width: 80%;
+    padding-top: 1rem;
+    align-items: center;
+  }
+  .write-form{
+    width: 95%;
+    padding-left: 0.5rem;
   }
   .name-lastname {
     flex-direction: column;
@@ -306,6 +318,8 @@ textarea:not(:placeholder-shown):invalid  .icon-invalid {
   }
   .form-button{
     width: 50%;
+    margin-left: 1rem;
+    align-self: start;
   }
   .name-lastname .form:nth-of-type(1) {
     margin-right: 0;
