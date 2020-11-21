@@ -69,7 +69,7 @@
     flex-direction: column;
 }
 
-/*UL*/
+/*lista links de contacto*/
 
 .social-links{
     font-size: 1.5rem;
@@ -115,6 +115,8 @@
     text-align: center;
     transition: 0.2s;
 }
+
+/* pseudo-clases*/
 
 .contact-link:hover {
     color: #F9A826;
@@ -174,7 +176,7 @@ input, textarea{
   overflow: hidden;
 }
 
-/*Botón*/  
+/*Botón formulario*/  
 
 .form-button{
     width: 30%;
@@ -283,6 +285,8 @@ textarea:not(:placeholder-shown):invalid  .icon-invalid {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-left: 10%;
+    padding-bottom: 10%;
   }
   .contact-title, .form-title{
     font-size: 2rem;

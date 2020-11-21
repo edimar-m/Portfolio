@@ -116,6 +116,10 @@
       padding: 0;
     }
 }
+@media (min-width: 750px) and (max-width: 900px){
+  .about-section {
+   padding-top: 20%;
+  }
 @media screen and (min-width: 900px) and (max-width:1024 px){ 
     .about-section {
       display: flex;
@@ -132,14 +136,3 @@
       margin-top: 30px;
     }  
 }
-/*
-@media (orientation: landscape) {
-    .about-section {
-        flex-direction: row;
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: space-evenly; 
-    }
-}
-*/

@@ -45,7 +45,9 @@
    padding: 80px;
    margin-bottom: 30px;
 }
-    
+
+/*card de conocimiento*/
+
 .item-knowledge {
     color: #2e2e31;
     text-align: center;
@@ -80,6 +82,8 @@
    margin-top: 15px;
 }
 
+/* pseudo-clases*/
+
 .item-knowledge:hover {
   border: 2px solid #8338ec;
 }
@@ -106,6 +110,7 @@
     font-size: 1.5rem;
     padding-top: 2rem;
     padding-bottom: 1rem;
+    padding-left: 10%;
     text-align: center;
   }
   .knowledge-description{
@@ -122,17 +127,24 @@
     font-size: 3rem;
   }
 }
+@media (min-width: 750px) and (max-width: 900px){
+  .knowledge-title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+}
 @media (min-width: 900px) and (max-width: 1024px) {
   .knowledge-section {
     width: auto;
     height: auto;
-    padding: 20px 10px;
+    padding: 10px 10px;
     margin: 0.5em;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
   }
-  .knowledge-description .section-title{
+  .knowledge-title{
     text-align: center;
   }
   .grid-knowledge{
