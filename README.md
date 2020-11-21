@@ -23,7 +23,6 @@
   - Abrir tu terminal y poner el comando de ```git clone <URL>```
   - Entrar a la carpeta del proyecto y abrirlo en tu IDE.
   <br>
-
 ### Este proyecto no necesita la instalación de ninguna dependencia, por ahora!
 <br>
 
@@ -44,7 +43,7 @@
 ***
 ### Agradezco a nuestro profesor, [Jonh Parra](https://github.com/Jonhks) por tener la paciencia y la vocación de enseñarnos con buena disposición y esfuerzo en este nuevo camino. 
 ### (Por levantarse los sábados antes de las 6 am para darnos clases ) 😂.
-### Agradezco a [Leydy](https://github.com/leydyk93/),  por ayudarnos siempre que lo necesitamos y estar siempre con la mejor voluntad, reforzando los conocimientos y aclarando nuestras inquietudes.
+### Agradezco a [Leidy](https://github.com/leydyk93/),  por ayudarnos siempre que lo necesitamos y estar siempre con la mejor voluntad, reforzando los conocimientos y aclarando nuestras inquietudes.
 ### Agradezco a mis compañeras de clases 💜por estar siempre, por aclarar inquietudes y ayudarme a encontrar errores cuando algo no funcionaba, por la buena energía y hacer de la virtualidad del curso un ámbiente cálido y ameno en el que la pantalla no es una barrera.
 ### Agradezco a ADA ITW por brindarme la oportunidad de aprender desarrollo web con un programa de calidad, haciendome sentir acompañada y segura de mi aprendizaje durante el proceso.
 

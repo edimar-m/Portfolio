@@ -1,12 +1,12 @@
 .project-section {
     background-color: whitesmoke;
     height: 190vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
-/*contenedor de la información*/
 
 .project-info{
     display: flex;
@@ -17,13 +17,21 @@
     margin-top: 10%;
     margin-bottom: 3%;  
 }
+.section-title{
+    font-family: 'Lilita One', cursive;
+    color: #3d3d3d;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    align-self: center;
+}
+
 .section-description{
     display: flex;
     text-align: center;
     margin-top: 50px;
     font-size: 1.3rem;
 }
-/*Grilla de proyectos*/
 
 .grid-projects{
     display: flex;
@@ -36,7 +44,6 @@
     margin: auto;
     font-size: 3rem; 
 }
-/*Imagen de las cajas-grilla de proyectos*/
 
 .project-img{
     display: flex;
@@ -54,7 +61,6 @@
 .image-class{
    padding: 10px; 
 }
-/*Texto de las cajas-grilla de proyectos*/
 
 .projects-text{
     display: flex;
@@ -75,7 +81,7 @@
 
 /*Media queries*/
 
-  @media  (min-width: 320px) and (max-width: 900px) {
+  @media  (min-width: 258px) and (max-width: 900px) {
   .project-section {
     display: flex;
     flex-flow: column nowrap;
@@ -89,8 +95,12 @@
 
   }
   .section-title{
-    text-align: center;
-    font-size: 3rem;
+    font-family: 'Lilita One', cursive;
+    color: #3d3d3d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+   text-align: center;
   }
   .section-description{
     font-size:  1rem;
@@ -102,7 +112,7 @@
     align-content: center;
     width: 90%;
     margin: 1rem;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
   .project-img {
     margin: 1rem;
@@ -124,51 +134,11 @@
 }
 
 @media  screen and(min-width: 900px) and (max-width: 1024px) {
-
-    .project-section {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: space-around;
-      width: 100%;
-      height: 80%;
-      background-color: lawngreen;
-    }
-    .project-info{
-      width: 90%;
-      margin-top: 20%;
-  
-    }
-    .section-title{
-      text-align: center;
-      font-size: 3rem;
-    }
-    .section-description{
-      font-size:  1rem;
-    }
-    .grid-projects{
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: space-evenly;
-      align-content: center;
-      width: 90%;
-      margin: 1rem;
-      margin-bottom: 10%;
-    }
-    .project-img {
-      margin: 1rem;
-      padding: 0;
-      font-size: 0.3rem;
-      line-height: 1rem;
-      width: 100%;
-      height: 18rem;
-    }
-    .image-class{
-      width: 90%; 
-      padding: 1rem;
-    }
-    .projects-text{
-      margin: o;
-      padding: 0%;
-    }
-  
+  .project-section {
+    flex-wrap: wrap;
+  }
+  .project-img {
+    width: calc(100% / 2 - (0.75em * 2));
+    margin: 0.75em;
+  }
 }
