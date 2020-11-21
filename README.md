@@ -37,7 +37,7 @@
 ## Este es el resultado final de mi proyecto:
 <br>
 
-![images](images\screencapture.png)
+![images](https://github.com/edimar-m/Portfolio-modulo-1/blob/master/images/screencapture.png)
 
 ***
 ## Agradecimientos🙌
