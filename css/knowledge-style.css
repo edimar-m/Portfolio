@@ -111,17 +111,22 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
     padding-left: 10%;
+    display: flex;
+    justify-self: center;
     text-align: center;
   }
   .knowledge-description{
     width: 80%;
   }
   .grid-knowledge{
-    width: 70%;
+    width: 50%;
     padding-top: 2rem;
   }
   .item-knowledge{
     height: 50%;
+  }
+  .grid-knowledge-text{
+    font-size: 0.90rem;
   }
   #knowledge-image {
     font-size: 3rem;
