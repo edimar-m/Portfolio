@@ -4,7 +4,7 @@
    
   ### Incorporando el uso de prácticas adecuadas como el HTML semántico, entre otras, logrando de este proyecto un sitio responsivo y accesible.
 
-  ### Para conocer mi portafolio puede hacer click en el siguiente [enlace](https://edimar-m.github.io/Portfolio-modulo-1/), en caso de presentar algún inconveniente también puede hacerlo desde [acá](https://adoring-jang-f31dba.netlify.app).
+  ### Para conocer mi portafolio puede hacer click en el siguiente [enlace](https://edimar-m.github.io/Portfolio/), en caso de presentar algún inconveniente también puede hacerlo desde [acá](https://adoring-jang-f31dba.netlify.app).
 
   <br>
 
@@ -15,7 +15,7 @@
   ### Para obtener el código de éste proyecto debe seguir los siguientes pasos:
   <br>
 
-  - Ir al [repositorio](https://edimar-m.github.io/Portfolio-modulo-1/)
+  - Ir al [repositorio](https://edimar-m.github.io/Portfolio/)
 
   - darle click al botón de forkear
   - darle click al botón de code
