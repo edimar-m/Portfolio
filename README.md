@@ -1,5 +1,5 @@
 # Portafolio de Edimar Morles
-  ### Este proyecto está realizado como requisito de evaluación final del primer módulo del curso de desarrollo FronTend de ADA ITW.
+  ### Este proyecto fue realizado como requisito de evaluación final del primer módulo del curso de desarrollo FronTend de ADA ITW.
   ### Para su desarrollo se han puesto en práctica los recursos aprendidos en clases, estructurando un sitio web con el uso de **HTML5**, dándole estilos en **CSS3**.
    
   ### Incorporando el uso de prácticas adecuadas como el HTML semántico, entre otras, logrando de este proyecto un sitio responsivo y accesible.
