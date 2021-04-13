@@ -15,7 +15,7 @@
   ### Para obtener el código de éste proyecto debe seguir los siguientes pasos:
   <br>
 
-  - Ir al [repositorio](https://edimar-m.github.io/Portfolio/)
+  - Ir al [repositorio](https://github.com/edimar-m/Portfolio)
 
   - darle click al botón de forkear
   - darle click al botón de code
